@@ -4,42 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>TeamBoner | Home</title>
+    <title>Home | TeamBoner</title>
+    <link rel="icon" type="image/x-icon" href="img/sitesprite.png">
 </head>
 <body>
 <header>
-    <img src="img/sitelogo.png" alt="TeamBoner" title="TeamBoner">
+    <img src="img/sitelogo.png" alt="TeamBoner" title="TeamBoner" onclick="location.href = 'index.html';">
 </header>    
     <main>
-        <ul>
+        <ul class="menu">
             <li>
                 Our games
                 <ul>
-                    <li>ScratchGame</li>
-                    <li>ScratchGame 2</li>
+                    <li onclick="location.href = 'ScratchGame.html';">ScratchGame</li>
+                    <li onclick="location.href = 'ScratchGame2.html';">ScratchGame2</li>
                 </ul>
             </li>
             <li>
                 The gang
                 <ul>
-                    <li>Adam Devaraj</li>
-                    <li>Ga(r)y</li>
-                    <li>Tlamas</li>
+                    <li>Adam Devaraj
+                        <img class="Burvany" src="img/Adam.png" alt="Adam" title="Adam">
+                    </li>
+                    <li>Ga(r)y
+                        <img class="Burvany" src="img/Gergo.png" alt="Gergo" title="Gergo">
+                    </li>
+                    <li>Tlamas
+                        <img class="Burvany" src="img/Tamas.png" alt="Tamas" title="Tamas">
+                    </li>
                 </ul>
             </li>
             <li>
                 Our supporters(1)
-                <ul>Bulcsú(short king(Lord Farquaad))</ul>
+                <ul>
+                    <li>Bulcsú(short king)
+                        <img class="Burvany" src="img/Bulcsu.png" alt="Bulcsu" title="Bulcsu">
+                    </li>
+                </ul>
             </li>
             <li>
                 Support us
                 <ul>
-                    <li><a href="https://www.patreon.com/Boner201">Patreon</a></li>
+                    <li onclick="window.open(this.href = 'https://patreon.com/boner201','popUpWindow')">Patreon</li>
                     <li>Kickstarter(cumming soon)</li>
                 </ul>
             </li>
-            <li>About</li>
+            <li onclick="location.href = 'About.html';">About</li>
         </ul>
-        </body>
+        <h1>
+            Welcome to the official site of TeamBoner!
+        </h1>
+
+        <h2>
+            On this website you can learn about our passionate team, download our games and even support us.
+            You can navigate on the site using the navigation bar!
+        </h2>
+        <img class="Gang" src="img/TheGang.png" alt="TheGang">
     </main>
+</body>
 </html>
